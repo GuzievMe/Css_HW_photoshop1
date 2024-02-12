@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    
+    background-color: black;
+    text-align: center;
+    padding-bottom: 36px;
+}
+
+.header-sect_1{
+    width: 60%;
+    /* background-color: rebeccapurple; */
+   
+    margin: 0 auto;
+    padding: 20px 0;
+
+    position: relative;
+
+}
+.header-sect_1 .f-1{
+    position: absolute;
+    left: 0;
+
+}
+
+.header-sect_1 .f-2{
+    position: absolute;
+    right: 0;
+}
+
+.header-sect_2{
+    margin-top: 280px;
+    text-align:  center;
+}
+
+.header-sect_2 .p-1, .p-2{
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+
+.header-sect_2 .p-1{
+    font-size: 20px;
+    letter-spacing: 16px;
+    text-transform: uppercase;
+}
+
+.header-sect_2 .p-2{
+    font-size: 13px;
+    letter-spacing: 5px;
+    margin-top: 38px;
+}
+
+.header-sect_2 .alink{
+    background-color: #ffe500;
+    text-decoration: none;
+
+    display: inline-block;
+    padding: 16px 35px 20px 35px;
+    box-sizing: border-box;
+
+    font-size: 0.8em;
+    letter-spacing: 4px;
+    color: #1b1b1b;
+    font-weight: 700;
+    font-family: "Raleway";
+    text-align: center;
+    margin-top: 50px;
+
+    margin-bottom: 250px;
+}
+
+
+
+.part_1{
+    background-color: #ffffff;
+    text-align: center;
+
+}
+
+.imgMountain{
+    padding: auto;
+    margin-top: 170px;
+    margin-bottom: 90px;
+
+}
+
+.p_under_mountain{
+    width: 585px;
+    height: 166px;
+    font-size: 0.95em;
+    letter-spacing: 1px;
+    line-height: 32px;
+    color: #707070;
+    font-weight: 400;
+    font-family: "Raleway",sans-serif;
+    text-align: center;
+    margin: auto;
+
+    padding-top: 90px;
+    padding-bottom: 190px;
+}
+
+
+.part_2{
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.services_sword{
+    padding-bottom: 85px;
+}
+
+.imgH{
+    margin: auto;
+    padding-top: 85px;
+    padding-bottom: 30px;
+
+}
+
+.serv_sw_p1{
+    font-size: 1.25em;
+    letter-spacing: 16px;
+    color: #1b1b1b;
+    font-weight: normal;
+    font-family: "Raleway";
+}
+
+.serv_sw_p2{
+    width: 769px;
+    height: 67px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    color: #707070;
+    font-weight: 400;
+    font-family: "Raleway";
+    text-align: center;
+    margin: auto;
+}
+
+
+.services_cards{
+    box-sizing: border-box;
+    padding-right: 373px;
+    padding-left: 343px;
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+
+
+}
+
+.card{
+    background-color: #ffffff;
+    text-align: center;
+    margin-right: 30px;
+    margin-bottom: 25px;
+
+}
+
+.services_cards .cardphoto{
+    margin-top: 46px;
+    margin-bottom: 36px;
+
+}
+
+.services_cards .cardname{
+    font-size: 15px;
+    letter-spacing: 6px;
+    line-height: 24px;
+    color: #1b1b1b;
+    font-weight: 500;
+    font-family: "Raleway";
+    text-align: center;
+    filter: drop-shadow(0 0 5px rgba(37,39,42,0.1));  
+
+    padding-left: 28px;
+    padding-right: 28px;
+    margin-bottom: 45px;
+}
+
+.services_cards .cardinfo{
+    width: 221px;
+    height: 130px;
+font-size: 12px;
+letter-spacing: 1px;
+line-height: 24px;
+color: #707070;
+font-weight: 400;
+font-family: "Raleway";
+text-align: center;
+filter: drop-shadow(0 0 5px rgba(37,39,42,0.1));
+margin: auto;
+padding-left: 30px;
+padding-right: 30px;
+
+}
+
+
+.card_rates{
+    background-color: #ffffff;
+    text-align: left;
+    margin-right: 27px;
+    margin-bottom: 25px;
+}
+
+.card_rates .sect{
+    font-size: 13px;
+    letter-spacing: 3px;
+    line-height: 24px;
+    color: #1b1b1b;
+    font-weight: 500;
+    font-family: "Raleway";
+    padding-left: 15px;
+
+}
+
+.card_rates .rate{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    margin-left: 0;
+
+}
+
+
+.successes{
+    background-color: #1a1a1a;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 347px;
+    margin-right: 347px;
+}
+
+.success_rates{
+    background-color: #ffffff;
+    text-align: center;
+    
+    margin-top: 85px;
+    margin-bottom: 85px;
+
+    margin-right: 27px;
+}
+
+
+
+.numb_success{
+    font-size: 15px;
+letter-spacing: 6px;
+line-height: 24px;
+color: #1b1b1b;
+font-weight: 500;
+font-family: "Montserrat";
+text-align: center;
+
+}
+
+.success_area{
+    font-size: 13px;
+    letter-spacing: 3px;
+    line-height: 24px;
+    color: #1b1b1b;
+    font-weight: 500;
+    font-family: "Raleway";
+
+    text-align: center;
+    padding-left: 94px;
+    padding-right: 94px;
+
+}
+
+
+
+.services_sword{
+    text-align: center;
+}
+
+/* 
+.portfAreas{
+    text-align: center;
+    display: flex;
+
+}
+
+
+.portf-area-1, .portf-area-2{
+    width: 24.5%;
+    background-color: red;
+    position: relative;
+}
+
+.portf-area-1{
+    margin-left: 20%;
+    
+    
+    margin-right: 65px;
+
+    
+}
+.portf-area-2{
+    margin-right: 20%;
+    text-align: right;
+    margin-left: 60px;
+
+   
+}
+
+.portf-area-1 p, .portf-area-2 p{
+    display: inline-block;
+
+    font-size: 13px;
+letter-spacing: 3px;
+line-height: 24px;
+color: #1b1b1b;
+font-weight: 500;
+font-family: "Raleway";
+
+position: absolute;
+}
+
+.grphc{
+    left: 0;
+}
+
+.web{
+    right: 0;
+}
+
+.dev{
+    left: 0;
+}
+
+.app{
+    right: 0;
+}
+
+.portf-area-1 hr:nth-child(even), .portf-area-2 hr:nth-child(even){
+    width: 470px;
+    display: inline-block;
+    margin-top: 150px;
+
+    color: black;
+    font-weight: bold;
+} */
+
+.portfAreas{
+    display: flex;
+    margin-bottom: 200px;
+}
+
+
+.portf_areas{
+    width: 24%;
+    margin-left: 19.5%;
+}
+
+.portfAreas .portf_areas:nth-child(1){
+    margin-left: 19.5%;
+}
+
+.portfAreas .portf_areas:nth-child(3){
+    margin-right: 19.5%;
+}
+
+
+
+.portf_areas div{
+    display: flex;
+}
+
+.portf_areas div{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 10px;
+   
+}
+
+.portf_areas div p{
+    padding-top: 26px;
+    margin-bottom: 26px;
+
+    font-size: 13px;
+    letter-spacing: 3px;
+    line-height: 24px;
+    color: #1b1b1b;
+    font-weight: 500;
+    font-family: "Raleway";
+
+    
+     /* position: absolute; */
+    
+    
+}
+
+.portf_areas div p:nth-child(1){
+    left: 77px;
+    padding-right:200px;
+    color: red;
+}
+
+.portf_areas div p:nth-child(2){
+    right: 87px;
+}
+
+.portfAreas img{
+    margin: 0 65px;
+}
+
+/* .portf_areas hr:nth-child(2){
+    margin-top: 100px;
+} */
+
+
+
+
+
